@@ -6,6 +6,7 @@ import Hero1 from './Hero/Hero1';
 import Hero2 from './Hero/Hero2';
 import Hero3 from './Hero/Hero3';
 import HeroGrid from './Hero/HeroGrid';
+import Testimonial from './Hero/Testimonial';
 
 const App = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -30,6 +31,7 @@ const App = () => {
       <Hero2 />
       <Hero3 />
       <HeroGrid />
+      <Testimonial />
     </div>
   )
 }

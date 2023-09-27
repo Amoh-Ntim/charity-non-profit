@@ -23,7 +23,11 @@ export default {
         // => @media (min-width: 1536px) { ... }
       }
     ,
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Work Sans', 'sans'], // Define "Work Sans" as the default sans-serif font
+      },
+    },
   },
   plugins: [],
 }

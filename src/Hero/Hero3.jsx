@@ -16,7 +16,7 @@ const Hero3 = () => {
      </div>
     
       <div className="flex gap-2 items-center justify-center">
-          <div className="bg-green-200 w-56 h-28">
+          <div className="bg-green-100 w-56 h-28">
             <div className="flex gap-2">
              <img src="/Vector.png" className="w-6 h-7 ml-2"/>
              <h6 className="">Our Mission</h6>
@@ -26,7 +26,7 @@ const Hero3 = () => {
             <h6>sed diam</h6>
           </div>
 
-          <div className="bg-green-200 w-56  h-28">
+          <div className="bg-green-100 w-56  h-28">
             <div className="flex gap-2">
              <img src="/Group 3180.png" className="w-6 h-7 ml-2"/>
              <h6 className="">Our Vision</h6>
