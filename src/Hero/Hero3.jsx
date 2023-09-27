@@ -1,7 +1,7 @@
 const Hero3 = () => {
   return (
-  <div className="flex mt-20 gap-8 justify-center items-">
-     <div className="flex-row  justify-center items-center">
+  <div className="flex mt-20 gap-8 justify-center xs:flex-col lg:flex-row">
+     <div className="flex-row justify-center items-center">
 
      <div className="flex-row">
       <h6>Welcome to Charity</h6>
@@ -15,7 +15,7 @@ const Hero3 = () => {
           <h6>erat, sed diam voluptua. At vero eos et accusam et justo.</h6>
      </div>
     
-      <div className="flex gap-2">
+      <div className="flex gap-2 items-center justify-center">
           <div className="bg-green-200 w-56 h-28">
             <div className="flex gap-2">
              <img src="/Vector.png" className="w-6 h-7 ml-2"/>
@@ -36,11 +36,30 @@ const Hero3 = () => {
             <h6>sed diam</h6>
           </div>
       </div>
+         <div className="flex font-bold p-2 items-center xs:justify-around">
+            <h6>Donations</h6>
+            <h6>75%</h6>
+         </div>
+         <div className="flex mt-4 items-center justify-center">
+          <img src="/Rectangle 2885.png" className="ml-4  h-3"/>
+          <img src="/Rectangle 2884.png" className=" w-12 h-3 "/>
+         </div>
      </div> 
     </div>
 
-    <div>
-        <img src="/Rectangle 2880.png" className="w-110 h-112 border-8 border-green-100"/>
+    <div className="flex relative items-center justify-center">
+        <img src="/Rectangle 2880.png" className="w-60 h-64 border-8 border-green-100"/>
+        <div className="flex text-xs bg-white absolute top-1/2 left-36 border-8 border-green-100 items-center justify-center">
+           <ul className="list-disc list-inside p-2">
+           <li className="flex mb-2 text-green-400 whitespace-nowrap">Together, we{"'"}re going to make the future</li>
+           <li className="mb-2">children where we are able to fulfill all</li>
+           <li className="mb-2">their requirements to keep them safe
+                from withered world</li>
+           <li className="mb-2">We have already stepped out and
+                   start changing the world</li>
+           <li className="mb-2">Keeping safe them from war, inhumanity</li>
+           </ul>
+        </div>
     </div>
    
 </div>
