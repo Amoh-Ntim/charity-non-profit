@@ -3,7 +3,7 @@ const Hero1 = () => {
 
   const [text, setText] = useState('');
   const initialText = 'can change the world';
-  const typingSpeed = 190; // Adjust typing speed in milliseconds
+  const typingSpeed = 400; // Adjust typing speed in milliseconds
 
   useEffect(() => {
     let index = 0;
