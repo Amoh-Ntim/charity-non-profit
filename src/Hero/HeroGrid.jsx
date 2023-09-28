@@ -1,10 +1,10 @@
 const HeroGrid = () => {
   return (
     <div className="">
-      <div className="grid xs:grid-cols-2 gap-y-2 md:grid-cols-5 gap-x-2 mt-24 h-full">
+      <div className="grid xs:grid-cols-5 gap-y-2 justify-items-center items-center md:grid-cols-5 gap-x-2 mt-24 h-full">
        <div className="grid flex-col gap-y-3 ml-20">
-        <img className="rounded-lg lg:w-66" src="Rectangle 2970.png"/>
-        <img className="flex rounded-lg lg:w-40 justify-center items-center mb-8" src="Rectangle 2977.png"/>
+        <img className="rounded-lg hidden md:block lg:w-66" src="Rectangle 2970.png"/>
+        <img className="rounded-lg hidden md:block lg:w-40 justify-center items-center mb-8" src="Rectangle 2977.png"/>
        </div>
         <img className="rounded-lg lg:w-112 row-span-2" src="Rectangle 2971.png"/>
         <div className="flex-col grid gap-y-3">

@@ -1,7 +1,7 @@
 
 const Bottomnav = () => {
   return (
-    <div className="flex p-20 bg-black text-white xs:flex-col items-center text-center md:flex-row justify-around">
+    <div className="flex p-20 bg-black text-white xs:flex-col items-center text-center md:flex-row justify-around" id="bottomnav">
     {/* Address div */}
     <div  className="md:text-left">
     <h6>Address</h6>
@@ -54,5 +54,3 @@ export default Bottomnav
  
 
 
-// how to click on a link on a page to move to other parts of the page in react 
-// using different react components on the page

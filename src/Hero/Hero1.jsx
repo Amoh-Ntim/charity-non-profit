@@ -22,7 +22,7 @@ const Hero1 = () => {
       };
     }, []);
   return (
-    <div className="relative">
+    <div className="relative" id="hero1">
       <img
         src="/Rectangle 2907.png" // Replace with the path to your image
         alt="Your Image"

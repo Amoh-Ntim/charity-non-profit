@@ -1,11 +1,11 @@
 const Testimonial = () => {
   return (
-    <div className="flex-col p-4">
+    <div className="flex-col p-4" id="test">
      <h6  className="flex text-green-500 text-xl">Testimonial</h6>
      <div>
      <div className="flex justify-between">
         <div className="flex-col">
-          <h6 className="text-black font-bold text-4xl">What People Say About</h6>
+          <h6 className="text-black font-bold text-4xl text-left">What People Say About</h6>
           <h6 className="flex text-black font-bold text-4xl">Us</h6>
         </div>
           <div className="">
@@ -14,7 +14,7 @@ const Testimonial = () => {
         </div>
      </div>
 
-     <div className="flex xs:flex-col justify-around items-center md:flex-row gap-2 mt-2">
+     <div className="flex xs:flex-col justify-between items-center md:flex-row gap-2 mt-2">
      {/* 1st card */}
      <div  className="border border-green-500 border-opacity-25 w-80 p-4">
        <div className="">
