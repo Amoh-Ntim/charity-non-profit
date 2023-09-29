@@ -51,7 +51,7 @@ const Hero3 = () => {
      </div> 
     </div>
 
-    <div className="flex relative items-center justify-center">
+    <div className="flex relative items-center justify-center xs:flex-col">
         <img src="/Rectangle 2880.png" className="w-60 h-64 border-8 border-green-100"/>
         <div className="flex text-xs bg-white top-1/2 left-36 absolute border-8 border-green-100 items-center justify-center ">
            <ul className="list-disc list-inside p-2">
