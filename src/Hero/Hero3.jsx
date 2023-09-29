@@ -46,14 +46,14 @@ const Hero3 = () => {
          </div>
          <div className="flex mt-4 items-center justify-center">
           <img src="/Rectangle 2885.png" className="h-3"/>
-          <img src="/Rectangle 2884.png" className="w-12 h-3"/>
+          <img src="/Rectangle 2884.png" className="w-8 h-3"/>
          </div>
      </div> 
     </div>
 
     <div className="flex relative items-center justify-center">
         <img src="/Rectangle 2880.png" className="w-60 h-64 border-8 border-green-100"/>
-        <div className="flex text-xs bg-white top-1/2 left-36 absolute border-8 border-green-100 items-center justify-center xs:left-4 sm:left-36">
+        <div className="flex text-xs bg-white top-1/2 left-36 absolute border-8 border-green-100 items-center justify-center xs:left-0 sm:left-36">
            <ul className="list-disc list-inside p-2">
            <li className="flex mb-2 text-green-400 whitespace-nowrap">Together, we{"'"}re going to make the future</li>
            <li className="mb-2">children where we are able to fulfill all</li>
