@@ -38,7 +38,7 @@ const Bottomnav = () => {
         <h6 className="text-gray-500 mt-4 text-left">Your email is safe with us,we don{"'"}t spam.</h6>
         <h6 className="text-left mt-8">Follow me</h6>
         {/* socials */}
-        <div className="flex mt-4 gap-4">
+        <div className="flex justify-center items-center mt-4 gap-4">
             <img className="hover:text-green-500 object-cover transition-transform transform scale-100 group-hover:scale-110" src="Group 3247.png"/>
             <img className="hover:text-green-500" src="Group 3248.png"/>
             <img className="hover:text-green-500" src="Group 3249.png"/>
