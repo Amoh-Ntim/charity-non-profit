@@ -53,7 +53,7 @@ const Hero3 = () => {
 
     <div className="flex relative items-center justify-center">
         <img src="/Rectangle 2880.png" className="w-60 h-64 border-8 border-green-100"/>
-        <div className="flex text-xs bg-white top-1/2 left-36 absolute border-8 border-green-100 items-center justify-center xs:left-48">
+        <div className="flex text-xs bg-white top-1/2 left-36 absolute border-8 border-green-100 items-center justify-center xs:left-8">
            <ul className="list-disc list-inside p-2">
            <li className="flex mb-2 text-green-400 whitespace-nowrap">Together, we{"'"}re going to make the future</li>
            <li className="mb-2">children where we are able to fulfill all</li>
