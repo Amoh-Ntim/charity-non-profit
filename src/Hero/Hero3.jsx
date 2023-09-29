@@ -45,8 +45,8 @@ const Hero3 = () => {
             <h6>75%</h6>
          </div>
          <div className="flex mt-4 items-center justify-center">
-          <img src="/Rectangle 2885.png" className="ml-4  h-3"/>
-          <img src="/Rectangle 2884.png" className=" w-12 h-3 "/>
+          <img src="/Rectangle 2885.png" className="h-3"/>
+          <img src="/Rectangle 2884.png" className="w-12 h-3"/>
          </div>
      </div> 
     </div>
