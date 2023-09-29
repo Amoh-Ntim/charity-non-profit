@@ -29,9 +29,9 @@ const HamburgerMenu = () => {
             {/* Menu items go here */}
             <ul>
             <li><Link to="hero1" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className="text-black hover:text-green-600">Home</Link></li>
-            <li><Link to="hero3" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className="text-black hover:text-green-600">Gallery</Link></li>
+            <li><Link to="herogrid" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className="text-black hover:text-green-600">Gallery</Link></li>
             <li><Link to="test" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className="text-black hover:text-green-600">About Us</Link></li>
-            <li><Link to="test" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className="text-black hover:text-green-600">How We Help</Link></li>
+            <li><Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className="text-black hover:text-green-600">How We Help</Link></li>
             </ul>
           </div>
         )}

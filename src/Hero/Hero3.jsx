@@ -1,9 +1,9 @@
 const Hero3 = () => {
   return (
-  <div className="flex mt-20 gap-8 justify-center xs:flex-col lg:flex-row" id="hero3">
+  <div className="flex mt-20 gap-8 justify-center xs:flex-col lg:flex-row">
      <div className="flex-row justify-center items-center">
 
-     <div className="flex-row">
+     <div className="flex-row" id="about">
       <h6>Welcome to Charity</h6>
           <div className="text-2xl font-mono">
           <h6>Let Us Come Together</h6>

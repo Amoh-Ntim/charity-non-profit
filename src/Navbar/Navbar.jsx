@@ -11,9 +11,9 @@ const Navbar = () => {
     <div className=" flex gap-12 ">
       {/* <a href="#" className=" hover:text-green-600">Home</a> */}
       <Link to="hero1" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className=" hover:text-green-600">Home</Link>
-      <Link to="hero3" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className=" hover:text-green-600">Gallery</Link>
-      <Link to="bottomnav" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className=" hover:text-green-600">About Us</Link>
-      <Link to="test" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className=" hover:text-green-600">How We Help</Link>
+      <Link to="herogrid" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className=" hover:text-green-600">Gallery</Link>
+      <Link to="test" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className=" hover:text-green-600">About Us</Link>
+      <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className=" hover:text-green-600">How We Help</Link>
     </div>
 
     {/* green button */}
