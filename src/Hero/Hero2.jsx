@@ -1,9 +1,9 @@
 const Hero2 = () => {
   return (
     <div className="flex items-center justify-center xs:flex-col mt-60 md:flex-row">
-       <div className="relative xs:p-20 justify-center xs:mt-60 w-[300px] md:mt-32">
+       <div className="relative xs:p-20 justify-center xs:mt-60 md:mt-32">
          <img src="/Rectangle 2881.png" alt="Image 1" className="w-80 border-8 border-green-100" />
-         <img src="/Rectangle 2882.png" alt="Image 2" className="border-8 border-green-100 mt-8 ml-8 xs:absolute mr-40 xs: top-1/2 xs:w-1/2 z-10 xs:left-1/8 md:absolute w-90 h-1/2 left-44 " />
+         <img src="/Rectangle 2882.png" alt="Image 2" className="border-8 border-green-100 mt-8 ml-8 xs:absolute mr-40 xs: top-1/2 xs:w-1/2 z-10 xs:left-1/3 md:absolute w-90 h-1/2 left-1/2 " />
        </div>
        
        <div>
